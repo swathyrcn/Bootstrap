@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #641c58;
+    color: white;
+    text-align: center;
+    padding:  0;  /* Slightly reduced padding */
+    font-size: 1.5rem;  /* Visible font size */
+    
+  }
+  
+  .fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#641c58;
+    color: white;
+    text-align: center;
+    padding:  0;  /* Slightly reduced padding */
+    font-size: 1.5rem;  /* Visible font size */
+   
+  }
+  
+  .scrollable-content {
+    margin-top: 60px; /* Adjusted for smaller top */
+    margin-bottom: 60px; /* Adjusted for smaller bottom */
+    padding: 25px;
+    height: calc(100vh - 120px); /* Ensures content fits and is scrollable */
+    overflow-y: auto;
+    background-color: #f4f4f4;
+  }
+  
+  .content
